@@ -2,7 +2,7 @@ import { StyledHeader } from './Header.styled';
 
 const Header = () => {
   return (
-    <StyledHeader bg='red'>
+    <StyledHeader>
       <h1>hubble</h1>
     </StyledHeader>
   );
