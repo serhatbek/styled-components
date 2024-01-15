@@ -9,6 +9,7 @@ const theme = {
     body: '#fff',
     footer: '#003333',
   },
+  mobile: '768px',
 };
 
 function App() {
@@ -16,11 +17,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <Header />
-      <Container>
-        <p className='read-the-docs'>
-          Click on the Vite and React logos to learn more
-        </p>
-      </Container>
+      <Container></Container>
     </ThemeProvider>
   );
 }

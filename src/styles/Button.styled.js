@@ -8,7 +8,7 @@ export const Button = styled.button`
   font-weight: 700;
   padding: 15px 60px;
   color: ${({ color }) => color || '#333'};
-  background-color: ${({ bg }) => bg || '#fff'};
+  background-color: ${({ variant }) => variant || '#fff'};
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
   transition: all 0.2s ease-in-out;
 
