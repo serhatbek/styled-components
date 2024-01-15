@@ -1,4 +1,4 @@
-import { Container } from './styles/Container';
+import { Container } from './styles/Container.styled';
 import { Header } from './components';
 import { ThemeProvider } from 'styled-components';
 import GlobalStyles from './styles/GlobalStyles.js';
