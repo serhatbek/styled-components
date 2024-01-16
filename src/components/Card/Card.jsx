@@ -1,8 +1,9 @@
 import React from 'react';
+import StyledCard from './Card.styled';
 
-const Card = ({ title, text, img }) => {
+const Card = ({ id, title, text, img }) => {
   return (
-    <div>
+    <StyledCard layout={id % 2 === 0 ? 'row-reverse' : 'row'}>
       <div>
         <h2>{title}</h2>
         <p>{text}</p>
@@ -10,7 +11,7 @@ const Card = ({ title, text, img }) => {
       <figure>
         <img src={img} alt='' />
       </figure>
-    </div>
+    </StyledCard>
   );
 };
 
