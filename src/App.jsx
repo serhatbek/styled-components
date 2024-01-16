@@ -1,5 +1,5 @@
 import { Container } from './styles/Container.styled';
-import { Card, Header } from './components';
+import { Card, Footer, Header } from './components';
 import { ThemeProvider } from 'styled-components';
 import GlobalStyles from './styles/GlobalStyles.js';
 import { cardItems } from './data/content.js';
@@ -29,6 +29,7 @@ function App() {
           />
         ))}
       </Container>
+      <Footer />
     </ThemeProvider>
   );
 }
