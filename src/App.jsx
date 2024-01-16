@@ -2,6 +2,7 @@ import { Container } from './styles/Container.styled';
 import { Header } from './components';
 import { ThemeProvider } from 'styled-components';
 import GlobalStyles from './styles/GlobalStyles.js';
+import { cardItems } from './data/content.js';
 
 const theme = {
   colors: {
